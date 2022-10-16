@@ -1,47 +1,27 @@
-Resumo da aula:
-
-
 display: inline; - Para ficar na mesma linha.
 
-
-
-A propriedade display configura a forma que o elemento será exibido.
-
-
+A propriedade display configura a forma que o elemento 
+será exibido.
 
 display: block; - Quero que seja exibido em blocos.
 
-
-
 display: none; - Não quero que esse elemento seja exibido. 
-
-
 
 width - Para edição de largura.
 
-
-
 Para centralizar os elementos utilizamos:
-
-
-
 margin: 0 auto 0 auto;
 ou
-
 margin: 0 auto;
 
 
-Para criar uma div já com a classe, basta escrever desta forma:
-
-Ex.   .container
-
+Para criar uma div já com a classe, basta escrever 
+desta forma: Ex.   .container
 
 display: flex; - Organiza os layouts da página.
 
+flex-wrap: wrap; - Quebra a linha quando a mesma acabar, 
+adicionando uma nova linha. 
 
-
-flex-wrap: wrap; - Quebra a linha quando a mesma acabar, adicionando uma nova linha. 
-
-
-
-justify-content: space-between; - Para distribuir igualmente o espaço vazio. 
+justify-content: space-between; - Para distribuir igualmente 
+o espaço vazio. 

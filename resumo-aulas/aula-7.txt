@@ -1,0 +1,29 @@
+Com a propriedade background-color: cor; adicionamos cor 
+ao fundo do elemento.
+
+Se utilizar uma tag muito genérica como header, 
+podem ocorrer bugs visuais. Para corrigir isso, 
+caso a edição seja no h1 da sua página, 
+basta utilizar o seletor body > header, 
+dado que o header é o filho mais velho do body, 
+sendo assim o mais próximo da cadeia, 
+resumindo é o que está mais próximo dele. 
+
+Para adicionar uma margem inferior utilizamos o atributo 
+margin-bottom: valor;
+
+Posso atribuir uma sentença para mais de um seletor, 
+basta colocar uma vírgula depois do seletor.
+Ex:    section h2, .articles article {}
+
+margin-top: valor; - Para adicionar uma margem no topo.
+
+O elemento <a> por padrão possui o display: inline; 
+será necessário mudá-lo para display: inline-block; 
+caso esteja com algum bug visual.
+
+Para alinhar os itens utilizamos a propriedade 
+align-items: center;
+
+justify-content: space-between; - Para distribuir igualmente 
+o espaço vazio. 
