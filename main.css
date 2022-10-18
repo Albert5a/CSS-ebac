@@ -18,10 +18,14 @@ header .container {
 
 header li a {
     color: white;
+    text-decoration: none;
 }
 
 header li {
     display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
 }
 
 .container {
@@ -37,7 +41,8 @@ header li {
 }
 
 .articles article img {
-    height: 180px;
+    /*height: 180px;*/
+    width: 100%;
 }
 
 .articles article {
@@ -61,6 +66,45 @@ section h2,
 .articles article a {
     background-color: rgb(100, 0, 0);
     color: rgb(158, 158, 0);
-    padding: 8px;
+    padding: 0px;
     display: inline-block;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p, 
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#history {
+    background-color: white;
+    color: black;
+}
+
+#history .articles article a {
+    font-size: 13px;
+}
+
+#tourism {
+    background-color: rgb(10, 0, 153);
+    color: rgb(218, 218, 218);
+}
+
+#tourism .articles article a {
+    background-color: rgb(158, 158, 0);
+    color: rgb(100, 0, 0);
 }
