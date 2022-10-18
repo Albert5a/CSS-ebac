@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: rgb(78, 0, 0);
+    padding: 16px 0;
+    color: rgb(207, 207, 207);
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li a {
+    color: rgb(207, 207, 207);
+    text-decoration: none;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto 0 auto;
+    /*text-align: center;*/
+}
+
+.articles article {
+    width: 30%;
+}
+
+
+.articles article img {
+    width: 100%;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2, 
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: rgb(59, 59, 59);
+    color: rgb(207, 207, 207);
+    padding: 0px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p, 
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgb(207, 207, 207);
+    color: rgb(58, 58, 58);
+}
+
+#sports .articles article a {
+    font-size: 13px;
+}
+
+#economy {
+    background-color: rgb(170, 170, 170);
+    color: rgb(78, 78, 78);
+
+}
+
+#economy .articles a {
+    background-color: rgb(78, 78, 78);
+    color: rgb(170, 170, 170);
+    font-size: 13px;
+}
+
+#economy .articles article h4 {
+    font-size: 20px;
+}
+
+#entertainment {
+    background-color: rgb(141, 141, 141);
+    color: rgb(75, 75, 75);
+}
+
+#entertainment .articles a {
+    background-color: rgb(75, 75, 75);
+    color: rgb(141, 141, 141);
+    font-size: 13px;
+}
+
+#technology {
+    background-color: rgb(100, 100, 100);
+    color: rgb(211, 211, 211);
+}
+
+#technology .articles a {
+    background-color: rgb(211, 211, 211);
+    color: rgb(100, 100, 100);
+    font-size: 13px;
+}
+
+
+
+
+
